@@ -70,6 +70,10 @@
     border-right: none;
 }
 
-.nav-item:hover {
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
     color: #1ABC9C;
 }
