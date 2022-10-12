@@ -31,3 +31,9 @@
     border-radius: 2rem;
     overflow: hidden;
 }
+
+.lne {
+    height: 5px;
+    width: 100px;
+    color: white;
+}
