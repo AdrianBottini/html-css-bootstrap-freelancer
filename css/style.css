@@ -1,8 +1,33 @@
-$grid-breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1400px
-);
+.section1 {
+    margin-top: 55px;
+    background-color: #1ABC9C;
+    padding: 30px;
+}
+
+.container2 {
+    background-color: #1ABC9C;
+    color: white;
+}
+
+.section {
+    color: white;
+}
+
+.section-p {
+    color: white;
+    font-size: small;
+}
+
+.img-section {
+    width: 200px;
+}
+
+.star {
+    color: white;
+}
+
+
+.bl_card {
+    border-radius: 2rem;
+    overflow: hidden;
+}
