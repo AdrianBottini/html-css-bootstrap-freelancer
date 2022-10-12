@@ -55,6 +55,17 @@
     border-radius: 100px;
 }
 
+.green {
+    background-color: #1ABC9C;
+    border: 1px solid #1ABC9C;
+}
+
 .link-footer {
     color: #1ABC9C;
+}
+
+.border-tabel {
+    border-left: none;
+    border-top: none;
+    border-right: none;
 }
