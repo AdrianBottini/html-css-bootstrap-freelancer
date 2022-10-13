@@ -30,6 +30,25 @@
 .bl_card {
     border-radius: 2rem;
     overflow: hidden;
+    position: relative;
+}
+
+.bl_card:hover img {
+    opacity: 0.4;
+}
+
+.bl_card .bi-plus-circle {
+    position: absolute;
+    top: 1.6em;
+    right: 3em;
+    color: white;
+    text-align: center;
+    opacity: 0;
+    font-size: 50px;
+}
+
+.bl_card:hover .bi-plus-circle {
+    opacity: 1.5;
 }
 
 .line {
@@ -53,6 +72,8 @@
 .border {
     border: 1px solid white;
     border-radius: 100px;
+    width: 4em;
+    height: 4em;
 }
 
 .green {
