@@ -37,14 +37,22 @@
     opacity: 0.4;
 }
 
+.overley {
+    background-color: #1ABC9C;
+}
+
 .bl_card .bi-plus-circle {
     position: absolute;
-    top: 1.6em;
-    right: 3em;
     color: white;
     text-align: center;
     opacity: 0;
+    inset: 0;
     font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #1ABC9C80;
 }
 
 .bl_card:hover .bi-plus-circle {
